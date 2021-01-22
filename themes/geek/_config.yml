@@ -19,11 +19,7 @@ valine:
 
 highlight:
   enable: true
-prismjs:
-  enable: false
-  preprocess: true
-  line_number: false
-  tab_replace: ''
+
 
 cdn:
   enabled: false
