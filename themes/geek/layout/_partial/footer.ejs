@@ -32,11 +32,9 @@
 <script src='//cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js'></script>
 <% if (theme.cdn.enabled) { %>
     <script src="<%= theme.cdn.url %>/libs/jquery.min.js"></script>
-    <script src="<%= theme.cdn.url %>/libs/highlight/highlight.pack.js"></script>
     <script src="<%= theme.cdn.url %>/js/js.js"></script>
 <% } else { %>
   <%- js('libs/jquery.min.js') %>
-  <%- js('libs/highlight/highlight.pack.js') %>
   <%- js('js/js.js') %>
 <% } %>
 <style type="text/css">
