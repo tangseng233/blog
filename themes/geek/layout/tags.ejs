@@ -1,0 +1,12 @@
+<div class="hd logodiv">
+    <%- image_tag('img/logo.png',{class: 'logopng'}) %>
+    <p class="logot"><span class="logo_1">&lt;</span><span class="logo_2">/</span><span class="logo_3">#</span> <span class="blog_title"><%= theme.logo_title %></span> <span class="logo_3">#</span><span class="logo_2">/</span><span class="logo_1">&gt;</span></p>
+</div>
+<%- partial('_partial/nav') %>
+<div class="tags_main">
+<% if (site.tags.length){ %>
+    <div class="tags_body">
+        <%- tagcloud(site.tags, {min_font:16, max_font:16, color: 'true',start_color: '#43c6ac', end_color: '#2980b9', class: 'tagbox',level:'0'}) %>
+    </div>
+<% } %>
+</div>
