@@ -109,7 +109,3 @@ theme: geek
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-plugin:
-  - hexo-generator-feed
-  - hexo-prism-plugin
-  - hexo-toc
