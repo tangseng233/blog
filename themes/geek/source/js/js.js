@@ -196,11 +196,6 @@ new Valine({
   }
 })
 
-document.addEventListener('DOMContentLoaded', (event) => {
-  document.querySelectorAll('pre').forEach((block) => {
-    hljs.highlightBlock(block);
-  });
-});
 
 function setCookie(key, value) {
   localStorage.setItem(key, value);
