@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: 快乐小沙雕
+subtitle: '还没想好'
+description: '个人日常分享小网站'
+keywords: 技术,生活,日常,猫猫
+author: tangseng233
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: https://tangseng233.cn
 root: /
 permalink: :year/:month/:day/:hash.html
 permalink_defaults:
