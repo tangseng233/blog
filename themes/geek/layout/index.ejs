@@ -54,7 +54,8 @@
                 <%= post.title %>
             </div>
             <div class="posttime">
-                <%- full_date(post.date, 'MMMM Do') %>
+                <span class="month"><%- full_date(post.date, 'MMMM') %></span>
+                <span class="day"><%- full_date(post.date, ' Do') %></span>
             </div>
         </div>
     </a>
