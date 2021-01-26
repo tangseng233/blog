@@ -20,8 +20,8 @@ highlight:
 
 
 cdn:
-  enabled: false
-  url: https://cdn.jsdelivr.net/gh/journey-ad/nocilol.me
+  enabled: true
+  url: https://cdn.jsdelivr.net/gh/tangseng233/blog/public
 
 analytics:
   googleId:

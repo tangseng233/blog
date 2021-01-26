@@ -21,10 +21,10 @@
     <title><%= page.title ? `${page.title} - ${config.title}` : config.title %></title>
     <% if (theme.cdn.enabled) { %>
         <link rel="stylesheet" href="<%= theme.cdn.url %>/css/style.css">
-        <link rel="stylesheet" href="<%= theme.cdn.url %>/libs/highlight/styles/monokai-sublime.css">
         <link rel="stylesheet" href="<%= theme.cdn.url %>/libs/font-awesome/css/font-awesome.min.css">
         <link rel="stylesheet" href="<%= theme.cdn.url %>/libs/zpix/zpix.css">
         <script src="<%= theme.cdn.url %>/js/theme.js"></script>
+        <link rel="stylesheet" href="<%= theme.cdn.url %>/libs/prism/prism.css">
     <% } else { %>
         <%- css('css/style') %>
         <%- css('libs/font-awesome/css/font-awesome.min') %>
